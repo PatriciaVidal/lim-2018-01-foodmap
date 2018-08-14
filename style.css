@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  font-family: 'Helvetica';
+}
+
+/* Inicio de intro*/
+.intro{
+  width: 180px;
+  height: 30px;
+  background-size: cover;
+  vertical-align: middle;
+  margin: 20% auto;
+  }
+
+.textstart{
+  font-family: 'Helvetica';
+  text-align: center;
+}
+
+.foodicon{
+  display: block;
+  text-align: center;
+}
+
+.line{
+  height: 5px;
+  width: 100%;
+  background: #e8e8e8;
+  margin-top: 15%;
+}
+  
+.inner{
+    width: 100%;
+    height: inherit;
+    background: #ef8c13;
+    animation: slide 2s ease-in-out infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform-origin: left;
+    transform: scalex(0.3);
+  }
+  25%{
+    transform-origin: left;
+    transform: scalex(1);
+  }
+  26%{
+    transform-origin: right;
+    transform: scalex(1);
+  }
+  50%{
+    transform-origin: right;
+    transform: scalex(0.3);
+  }
+  75%{
+    transform-origin: right;
+    transform: scalex(1);
+  }
+  76%{
+    transform-origin: left;
+    transform: scalex(1);
+  }
+  100%{
+    transform-origin: left;
+    transform: scalex(0.3);
+  }
+}
+/* Fin de intro*/
+
+/* Inicio de home*/
+.home{
+    text-align: center;
+    display: none;
+}
+
+.logo{
+    width: 300px;
+}
+
+.mapa{
+    text-align: right;
+    width: 500px;
+    border: 5px solid#ef8c13;
+    padding: 20px;
+    float: right;
+    margin: 20px;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.left{
+    text-align: left;
+    float: left;
+    padding: 30px;
+    margin: 20px;
+}
+/* Fin de home*/
