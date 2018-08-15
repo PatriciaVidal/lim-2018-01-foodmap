@@ -24,16 +24,32 @@
         <img class="logo" src="image/logofm-02.png">
         <div class="content">
             <div class="left">
-                <p>Aqui va el filter</p>
-
+                <div class="search-text">
+                    <input type="text" id="search" placeholder="Busca comida vegetariana, restaurantes, parrillas, cafeterías" class="search">
+                </div>
+                <div id="result"></div>
             </div>
 
             <div class="right">
                 <img class="mapa" src="image/mapa.jpg">
             </div>
         </div>
-        <script src="data.js"></script>
-        <script src="app.js"></script>
+    </div>
+
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h5 id="selected-name">Restaurante Prueba</h5>
+                <img id="close-btn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIQSURBVGhD7Zg/TgJBGMXBwhbPonZWHIJWGv4UWok9d9BEa+MJ1EI8gngEvYGJxoSOQt+Y7yVkmVlmvpnZbeaXvCwu+715D5ZFtlMoFAqFxphMJsfQw3g8vh0OhweyO5YuPC+gxXQ6PZV96YH5CYL/YKFfIzx+S1CiC58reorvTJ5LRzX8xmIxJbbCb/imK+EKT5kS2PbkcF+c4akkJUaj0VFdeCqwxM7wFI47lxkdMHmomrrkWcI7vGg1n8/3ZDYcLHZjMXVqR4nQ8MbvQ2Z1wKQnoawL2OQoERwe+jansMzrMVeZyBKaV/4rSXiiKQEtZa7d8ET5Tnza9ruULTxRvhNeyh6e5CjRWHiSskTj4QkWD77EVmXCQ4di2TwIoS7Rengip1PQ1cYIM32xaBXzY+S6Gs5H8s75/gOYBXV4qs0S0eGpNkokC7+hJdRIiRzhqewlcoanspUIDo9z21zn+3KOW49xKHkJbfj/Lyn8rfmyS1ZC9WOE4Qn2a37ZvWIbVwIms6pxnWzhCZ7vQeaVtc46tJBxHQjzYjG1qi48wXFBJeC3jrorYe5V2oyr8glPcLx3CXjey5gemFzazKmQ8ARzPiWeBoPBvozEgYDWz4ImPMG8+WCbD6rN9zFZeAJjcwt8cxF1eAKfrRJZwhMscAatoPfY8ARepsQztIbusoUnUVeFerqyLRQKhUJTdDp/LoTA6x9AHuYAAAAASUVORK5CYII=">
+            </div>
+            <div class="modal-content">
+                <p><b>Dirección: </b><span id="selected-address">Dirección de prueba</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

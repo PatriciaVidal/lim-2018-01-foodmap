@@ -1,0 +1,60 @@
+[{
+    "name": "Café Tostado",
+    "food": "Cafetería",
+    "address": "Nicolás de Piérola 222 - Barranco",
+    "requires": true
+},
+{
+    "name": "Sofa Café",
+    "food": "Restaurante",
+    "address": "Av. San Martin 480 - Interior 105 - Barranco",
+    "requires": true
+},
+{
+    "name": "La 73",
+    "food": "Restaurante",
+    "address": "Av. El Sol 175 - Barranco",
+    "requires": true
+},
+{
+    "name": "Cala",
+    "food": "Restaurante",
+    "address": "Circuito de playas - Barranco",
+    "requires": true
+},
+{
+    "name": "Germinando Vida",
+    "food": "Comida Vegetariana",
+    "address": "Av. Almirante Miguel Grau 209 - Barranco",
+    "requires": true
+},
+{
+    "name": "La Cabrera",
+    "food": "Parrilla",
+    "address": "Av. Almirante Miguel Grau 209 - Barranco",
+    "requires": true
+},
+{
+    "name": "Veggie Pizza",
+    "food": "Comida Vegetariana",
+    "address": "Jr. Colina 112 - Barranco",
+    "requires": true
+},
+{
+    "name": "Arepa Café",
+    "food": "Cafetería",
+    "address": "Av. Almirante Miguel Grau 136 - Barranco",
+    "requires": true
+},
+{
+    "name": "Manduco Café",
+    "food": "Cafetería",
+    "address": "Av. Almirante Miguel Grau 330 - Barranco",
+    "requires": true
+},
+{
+    "name": "Songoro Cosongo",
+    "food": "Restaurante",
+    "address": "Jr. Ayacucho 281 - Barranco",
+    "requires": true
+}]
