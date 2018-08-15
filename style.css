@@ -73,8 +73,10 @@ body{
 
 /* Inicio de home*/
 .home{
-    text-align: center;
-    display: none;
+  text-align: center;
+  display: none;
+  background: url(image/1167.jpg);
+  background-size: 1350px;
 }
 
 .logo{
