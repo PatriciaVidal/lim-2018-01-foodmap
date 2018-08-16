@@ -6,7 +6,21 @@ const searchInput = document.getElementById("search");
 const modal = document.getElementById("modal");
 const closeModalBtn = document.getElementById("close-btn");
 
-extractJSON("Esta es una consulta","/Places.json");
+extractJSON("/Places.json");
+
+searchInput.addEventListener("keyup",(e) => {
+    //value = Restaurante
+    let value = e.target.value;
+    s_restaurantes = [];
+    for(let key = 0; key<restaurantes.length; key++){
+        let restaurant = restaurantes[key];
+        //restaurante.food = Cafeteria
+        if(restaurant.food.toUpperCase() == value.toUpperCase()){
+            s_restaurantes.push(restaurant);
+        }
+    }
+    paintResult();
+});
 
 function initListEvent(){
     const items = document.getElementsByClassName("list-item");    
@@ -26,18 +40,6 @@ function showModal(){
     //Mostrar
     modal.classList.add("active");
 }
-
-searchInput.addEventListener("keyup",(e) => {
-    let value = e.target.value;
-    s_restaurantes = [];
-    for(let key in restaurantes){
-        let restaurant = restaurantes[key];
-        if(restaurant.food.toUpperCase() == value.toUpperCase()){
-            s_restaurantes.push(restaurant);
-        }
-    }
-    paintResult();
-});
 
 closeModalBtn.addEventListener("click",(e) => {
     modal.classList.remove("active");
@@ -63,27 +65,19 @@ function paintResult(){
     } 
 }
 
-function extractJSON(str, url){
-    /*
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-        callback(str, data)
-      })
-      .catch((err) => console.log(err))
-      */
+function extractJSON(url){
      fetch(url)
      .then(res => {
          return res.json();
      })
      .then(data => {
-         callback(str,data);
+         callback(data);
      })
      .catch(error=>{
         console.log(error);
      });
   };
 
-function callback (str,data){
+function callback (data){
     restaurantes = data;
 }

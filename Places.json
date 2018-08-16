@@ -1,6 +1,6 @@
 [{
     "name": "Café Tostado",
-    "food": "Cafetería",
+    "food": "Cafeteria",
     "address": "Nicolás de Piérola 222 - Barranco",
     "requires": true
 },
@@ -42,13 +42,13 @@
 },
 {
     "name": "Arepa Café",
-    "food": "Cafetería",
+    "food": "Cafeteria",
     "address": "Av. Almirante Miguel Grau 136 - Barranco",
     "requires": true
 },
 {
     "name": "Manduco Café",
-    "food": "Cafetería",
+    "food": "Cafeteria",
     "address": "Av. Almirante Miguel Grau 330 - Barranco",
     "requires": true
 },

@@ -72,6 +72,11 @@ body{
 /* Fin de intro*/
 
 /* Inicio de home*/
+.content{
+  display: flex;
+  background-color: #f5f5f5;
+  flex-wrap: wrap;
+}
 .home{
   text-align: center;
   display: none;
@@ -86,22 +91,24 @@ body{
 .mapa{
   text-align: right;
   width: 500px;
-  padding: 20px;
-  float: right;
-  margin: 20px;
-  padding: 10px;
-  padding-top: 5px;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
 }
 
-.left{
-  text-align: left;
-  float: left;
-  padding: 30px;
-  margin: 20px;
+.left{  
+  text-align: center;
+  width: calc(100% - 100px);
+  padding: 50px;
+}
+.right{
+  width: calc(100% - 40px);
+  padding: 0px 20px;
 }
 
 .search{
   font-family: 'Helvetica';
+  font-size: 1.1em;
   border-radius: 5px;
   border: 1px solid rgb(185,185,185);
   width: 500px;
@@ -109,6 +116,7 @@ body{
   padding-left: 15px;
   text-rendering: auto;
   box-shadow: .5px .5px 5px rgba(0,0,0,.5);
+  max-width: calc(100% - 30px);
 }
 
 .modal-container{
@@ -163,4 +171,20 @@ body{
   margin: 0;
   font-size: 0.8em;
 }
+.result-list{
+  text-align: left;
+}
 /* Fin de home*/
+@media(min-width: 768px){
+  .left{
+    width: calc(50% - 100px);
+    padding-top: 0px;
+    text-align: left;
+  }
+  .right{
+    width: calc(50% - 40px);
+  }
+  .content{
+    padding-top: 30px;
+  }
+}
