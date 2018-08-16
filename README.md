@@ -4,7 +4,7 @@ Es una app para seleccionar restaurantes por tipo de comida en Barranco mediante
 
 ## Flujo de la aplicación.
 
-Vista splash con duración de 2 segundos que redirecciona a tu vista principal.
+Vista splash con duración de 3 segundos que redirecciona a tu vista principal.
 
 En la vista principal se muestran todos los restaurantes junto con el input para filtrar por tipo de comida.
 - Comida vegetariana
@@ -21,8 +21,8 @@ Una vez cerrado el modal debe volver a la vista principal.
 ## Proceso de creación
 
 #### Planificación
-Para empezar utilizé un Trello que usé como guía para tomar en cuenta el tiempo de creación.
-Link de trello: ![Click aquí](https://trello.com/b/iiudYYAy/foodmap)
+Para empezar utilizé un Trello que usé como guía para tomar en cuenta el tiempo de creación.<br>
+Link de trello: [Click aquí](https://trello.com/b/iiudYYAy/foodmap)
 
 #### Sketch
 Para crear el Sketch tomé en cuenta la **vista de splash** y luego la **vista principal.**<br>
@@ -33,10 +33,10 @@ Para crear el Sketch tomé en cuenta la **vista de splash** y luego la **vista p
 #### Logotipo
 A continuación tomé en cuenta el nombre de la Foodmap, que tiene que ver con la comida, utilicé una **tipografía** llamada Nature Beauty, que da una impresión de caligrafía hecha a mano que brinda calidez. Una vez elegida la tipografía pasé a elegir el **color**, que en este caso es el naranja ya que estimula el apetito. <br>
 
-Elección de tipografía
+Elección de tipografía<br>
 ![Elección_de_tipogría](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/opcion%20de%20tipografia.jpg?raw=true)
 
-Logo final
+Logo final<br>
 ![Logo](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/logofm-02.png?raw=true)
 
 #### Prototipado de media fidelidad
@@ -48,7 +48,7 @@ Logo final
 ![Prototipo2](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/prototipo2.jpg?raw=true)<br>
 
 #### Vistas del proyecto en html
-Vista Splash
+Vista Splash<br>
 ![Splash](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/vistasplash.jpg?raw=true)<br>
 
 Vista Web
@@ -59,7 +59,7 @@ Vista Modal
 
 
 #### Presentación en plataformas digitales (celular y web)
-![Mockup1](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/mockup1.jpg?raw=true)<br>
 ![Mockup2](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/mockup2.jpg?raw=true)<br>
+![Mockup1](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/mockup1.jpg?raw=true)<br>
 
 **Gracias**
