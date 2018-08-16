@@ -1,28 +1,65 @@
-#  F O O D M A P
+#  FOODMAP
 
-Crea una web-app que a través de un input pueda filtrar los restaurantes
-que se encuentran cerca de ti *(Tú decides la estructura que tendrán tus datos,
-puedes crear una lista de restaurantes en un arreglo, en un objeto, consumir una API, etc. Lo importante es que el contenido debe ser dinámico y no estático y el diseño es totalmente libre)*.
+Es una app para seleccionar restaurantes por tipo de comida en Barranco mediante un buscador.
 
-#### Flujo de la aplicación.
+## Flujo de la aplicación.
 
-Vista splash con duración de 2 segundos que redirecciona a tu vista
-principal.
-![Splash](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/vistasplash.jpg?raw=true)
+Vista splash con duración de 2 segundos que redirecciona a tu vista principal.
 
-En la vista principal se muestran todos los restaurantes junto
-con el input para filtrar por tipo de comida.
+En la vista principal se muestran todos los restaurantes junto con el input para filtrar por tipo de comida.
 - Comida vegetariana
 - Restaurante
 - Parrilla
 - Cafetería
 
-Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
-restaurantes que cumplan con la condición.
+Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos restaurantes que cumplan con la condición.
 
-Al seleccionar alguno de los restaurantes, deberá mostrarse la información de
-este a través de un modal.
-![modal imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg?raw=true)
+Al seleccionar alguno de los restaurantes, deberá mostrarse la información de este a través de un modal.
 
 Una vez cerrado el modal debe volver a la vista principal.
-![ultima vista](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg?raw=true)
+
+## Proceso de creación
+
+#### Planificación
+Para empezar utilizé un Trello que usé como guía para tomar en cuenta el tiempo de creación.
+Link de trello: ![Click aquí](https://trello.com/b/iiudYYAy/foodmap)
+
+#### Sketch
+Para crear el Sketch tomé en cuenta la **vista de splash** y luego la **vista principal.**<br>
+
+![Sketch1](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/sketch1.jpeg?raw=true)
+![Sketch2](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/sketch2.jpeg?raw=true)
+
+#### Logotipo
+A continuación tomé en cuenta el nombre de la Foodmap, que tiene que ver con la comida, utilicé una **tipografía** llamada Nature Beauty, que da una impresión de caligrafía hecha a mano que brinda calidez. Una vez elegida la tipografía pasé a elegir el **color**, que en este caso es el naranja ya que estimula el apetito. <br>
+
+Elección de tipografía
+![Elección_de_tipogría](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/opcion%20de%20tipografia.jpg?raw=true)
+
+Logo final
+![Logo](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/logofm-02.png?raw=true)
+
+#### Prototipado de media fidelidad
+![Wireframe1](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/wireframe1.jpg?raw=true)<br>
+![Wireframe2](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/wireframe2.jpg?raw=true)<br>
+
+#### Prototipado de alta fidelidad
+![Prototipo1](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/prototipo1.jpg?raw=true)<br>
+![Prototipo2](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/prototipo2.jpg?raw=true)<br>
+
+#### Vistas del proyecto en html
+Vista Splash
+![Splash](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/vistasplash.jpg?raw=true)<br>
+
+Vista Web
+![Vistaweb](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/vistaweb.jpg?raw=true)<br>
+
+Vista Modal
+![Vistamodal](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/vistamodal.jpg?raw=true)<br>
+
+
+#### Presentación en plataformas digitales (celular y web)
+![Mockup1](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/mockup1.jpg?raw=true)<br>
+![Mockup2](https://github.com/PatriciaVidal/lim-2018-01-foodmap/blob/develop/image/mockup2.jpg?raw=true)<br>
+
+**Gracias**
