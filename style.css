@@ -173,6 +173,7 @@ body{
 }
 .result-list{
   text-align: left;
+  cursor: pointer;
 }
 /* Fin de home*/
 @media(min-width: 768px){
