@@ -25,8 +25,16 @@ searchInput.addEventListener("keyup",(e) => {
 function initListEvent(){
     const items = document.getElementsByClassName("list-item");    
     for(i=0;i<items.length;i++){
-        items[i].addEventListener("click",(e) => {
+        items[i].addEventListener("click",(e) => {            
             let pos = e.target.getAttribute("data-key");
+            if(pos == null){
+                let padre = (e.target).parentNode;
+                if(padre.getAttribute("data-key") == null){
+                    padre = padre.parentNode;
+                }
+                pos = padre.getAttribute("data-key");
+            }
+
             selected = s_restaurantes[pos];
             showModal();
         });
@@ -51,9 +59,7 @@ function paintResult(){
         html = "<ul class='result-list'>";
         for(let key in s_restaurantes){
             let restaurant = s_restaurantes[key];
-            html += "<li class='list-item' data-key='"+key+"'>";
-            html += restaurant.name;
-            html += "</li>";
+            html += "<li class='list-item' data-key='"+key+"'>"+restaurant.name+'</li>';
         }
         html += "</ul>";
         const contenedor_resultado = document.getElementById("result");
